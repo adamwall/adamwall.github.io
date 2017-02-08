@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>adamwall - portfolio</title>
+    
+    <!-- CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-social.css" rel=stylesheet>
+    <link href="/css/font-awesome.min.css" rel=stylesheet>
+      
+    <!--custom CSS -->
+    <link href="../css/styles.css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">adamwall</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/about/">about</a></li>
+            <li class="active"><a href="/portfolio/">portfolio</a></li>
+            <li><a href="/contact/">contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container" style="padding-top: 50px">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#" class="thumbnail" data-toggle="modal" data-target="#dpsInjectModal">
+            <img src="images/dpsinject.png">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="thumbnail" data-toggle="modal" data-target="#myBusModal">
+            <img src="images/mybusCU.png">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="thumbnail" data-toggle="modal" data-target="#startHubModal">
+            <img src="images/starthub.png">
+          </a>
+        </div>  
+        <div class=" col-md-4">
+          <a href="#" class="thumbnail" data-toggle="modal" data-target="#portfolioModal">
+            <img src="images/portfolio.png">
+          </a>
+        </div> 
+        <div class=" col-md-4">
+          <a href="#" class="thumbnail" data-toggle="modal" data-target="#chessModal">
+            <img src="images/chess.png">
+          </a>
+        </div>         
+        <div class=" col-md-4">
+          <a href="#" class="thumbnail">
+            <img src="images/pikaclass.png" data-toggle="modal" data-target="#pikaClassModal">
+          </a>
+        </div> 
+        <div class=" col-md-4">
+          <a href="#" class="thumbnail">
+            <img src="images/itrust.jpg" data-toggle="modal" data-target="#iTrustModal">
+          </a>
+        </div>       
+      </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+  
+  <!-- Modal Content -->
+  <div class="modal fade" id="dpsInjectModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h1 class="modal-title" id="myModalLabel">DPSInject</h1>
+        </div>
+        <div class="modal-body">
+          Contributed to the design and development of an encounter aggregator website for the game TERA.
+          <ul>
+            <li>Designed "Class Rankings" page to promote better user experience</li>
+            <li>Assisted in implementing SQL queries for filtering encounters by multiple factors</li>
+            <li>Accepted feedback from real users</li>
+          </ul>
+          <h4>Technoglies Used:</h4>
+          <big>
+          <a href="https://nodejs.org/"><span class="label label-primary">Node.js</span></a>
+          <a href="https://angularjs.org/"><span class="label label-primary">AngularJS</span></a>
+          <a href="https://www.mysql.com/"><span class="label label-primary">MySQL</span></a>
+          <a href="http://expressjs.com/"><span class="label label-primary">Express.js</span></a>
+          <a href="http://getbootstrap.com/"><span class="label label-primary">Bootstrap</span></a>
+          </big>
+        </div>
+        <div class="modal-footer">
+          <a href="http://www.dpsinject.me"><button type="button" class="btn btn-default btn-social"><span class="fa fa-globe" aria-hidden="true"></span>Visit Site</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="myBusModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h1 class="modal-title" id="myModalLabel">MyBusCU</h1>
+        </div>
+        <div class="modal-body">
+          Developed hybrid mobile application which allows users to lookup bus information and times for Champaign-Urbana Mass Transit District’s buses.
+          <ul>
+            <li>Designed favorite system which allowed users to filter by their most used stops</li>
+            <li>Integrated API's from CUMTD and Google Maps</li>
+            <li>Implemented server using Node and Express for caching data</li>
+            <li>Created function to determine whether it would be faster to walk or take the bus to a location</li>
+          </ul>
+          <h4>Technoglies Used:</h4>
+            <big>
+            <a href="https://nodejs.org/"><span class="label label-primary">Node.js</span></a>
+            <a href="https://angularjs.org/"><span class="label label-primary">AngularJS</span></a>
+            <a href="https://cordova.apache.org/"><span class="label label-primary">Cordova</span></a>
+            <a href="http://expressjs.com/"><span class="label label-primary">Express.js</span></a>
+            <a href="https://ionicframework.com/"><span class="label label-primary">Ionic</span></a></big>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/adamwall/my-bus-CU"><button type="button" class="btn btn-default btn-social btn-github"><span class="fa fa-github" aria-hidden="true"></span>View on Github</button></a>
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="modal fade" id="startHubModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h1 class="modal-title" id="myModalLabel">StartHub</h1>
+        </div>
+        <div class="modal-body">
+          Worked in a group of 6 to create a web application that helps users find collaborators for their startup idea
+          <ul>
+            <li>Implemented commenting and private messaging system</li>
+            <li>Designed and developed voting system on projects</li>
+            <li>Tested server-side routing functions</li>
+          </ul>
+          <h4>Technoglies Used:</h4>
+            <big>
+            <a href="https://nodejs.org/"><span class="label label-primary">Node.js</span></a>
+            <a href="https://angularjs.org/"><span class="label label-primary">AngularJS</span></a>
+            <a href="https://www.mongodb.com/"><span class="label label-primary">MongoDB</span></a>
+            <a href="http://expressjs.com/"><span class="label label-primary">Express.js</span></a>
+            <a href="http://getbootstrap.com/"><span class="label label-primary">Bootstrap</span></a></big>
+        </div>
+        <div class="modal-footer">
+          <a href="http://starthubdemo.herokuapp.com/"><button type="button" class="btn btn-default btn-social"><span class="fa fa-globe" aria-hidden="true"></span>View Demo</button></a>
+          <a href="https://github.com/adamwall/StartHub"><button type="button" class="btn btn-default btn-social btn-github"><span class="fa fa-github" aria-hidden="true"></span>View on Github</button></a>
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h1 class="modal-title" id="myModalLabel">Portfolio</h1>
+        </div>
+        <div class="modal-body">
+          Portfolio for the assignments in my Programming Studio course.
+          <ul>
+            <li>Parsed data from XML log to display SVN commit information</li>
+            <li>Designed branched commenting system that prevents SQL injections and cross-site scripting</li>
+            <li>Followed an Object Oriented structure</li>
+          </ul>
+          <h4>Technoglies Used:</h4>
+          <big>
+          <a href="http://php.net/"><span class="label label-primary">PHP</span></a>
+          <a href="https://www.mysql.com/"><span class="label label-primary">MySQL</span></a>
+          <a href="http://getbootstrap.com/"><span class="label label-primary">Bootstrap</span></a>
+          </big>
+        </div>
+        <div class="modal-footer">
+          <a href="https://adamportfoliodemo.000webhostapp.com/"><button type="button" class="btn btn-default btn-social"><span class="fa fa-globe" aria-hidden="true"></span>View Demo</button></a>
+          <a href="/portfolio/projects/cs242portfolio.zip"><button type="button" class="btn btn-default btn-social btn-dropbox"><span class="fa fa-download" aria-hidden="true"></span>Download Source</button></a>
+        </div>
+      </div>
+    </div>
+  </div>    
+
+  <div class="modal fade" id="chessModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h1 class="modal-title" id="myModalLabel">Chess</h1>
+        </div>
+        <div class="modal-body">
+          Two player chess game with user interface
+          <ul>
+            <li>Practiced Object Oriented Programming and Model-View-Controller pattern</li>
+            <li>Drafted manual test plan for testing the interface</li>
+            <li>Created custom piece with its own movement pattern</li>
+          </ul>
+          <h4>Technoglies Used:</h4>
+          <big>
+          <a href="https://www.java.com/"><span class="label label-primary">Java</span></a>
+          <a href="http://junit.org"><span class="label label-primary">JUnit</span></a>
+          </big>
+        </div>
+        <div class="modal-footer">
+          <a href="/portfolio/projects/chess.zip"><button type="button" class="btn btn-default btn-social btn-dropbox"><span class="fa fa-download" aria-hidden="true"></span>Download Source</button></a>
+        </div>
+      </div>
+    </div>
+  </div>    
+
+  <div class="modal fade" id="pikaClassModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h1 class="modal-title" id="myModalLabel">Pikaclass</h1>
+        </div>
+        <div class="modal-body">
+          Web application that allows users to rate their past courses as well as receive course recommendations
+          <ul>
+            <li>Created query for reccommending courses based on user's previous taken courses</li>
+            <li>Developed front and back end for submitting and displaying comments</li>
+            <li>Used Xpath to scrape course information from UIUC course catalog</li>
+          </ul>
+          <h4>Technoglies Used:</h4>
+          <big>
+          <a href="http://php.net/"><span class="label label-primary">PHP</span></a>
+          <a href="https://www.mysql.com/"><span class="label label-primary">MySQL</span></a>
+          <a href="http://getbootstrap.com/"><span class="label label-primary">Bootstrap</span></a>
+          </big>
+        </div>
+        <div class="modal-footer">
+          <a href="https://pikaclass.000webhostapp.com/"><button type="button" class="btn btn-default btn-social"><span class="fa fa-globe" aria-hidden="true"></span>View Demo</button></a>
+        </div>
+      </div>
+    </div>
+  </div>      
+
+  <div class="modal fade" id="iTrustModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h1 class="modal-title" id="myModalLabel">iTrust</h1>
+        </div>
+        <div class="modal-body">
+          iTrust is a medical application that provides patients with a means to keep up with their medical history and records as well as communicate with their doctors, including selecting which doctors to be their primary caregiver, seeing and sharing satisfaction results, and other tasks. iTrust is also an interface for medical staff from various locations. iTrust allows the staff to keep track of their patients through messaging capabilities, scheduling of office visits, diagnoses, prescribing medication, ordering and viewing lab results, among other funtions.
+          <ul>
+            <li>Built upon already existing software by adding new features through use cases</li>
+            <li>Adopted Agile Development practices such as scrum, user stories, pair programming and iteration cycles</li>
+            <li>Developed system that sends email reminders to patients who have an appointment soon</li>
+          </ul>
+          <h4>Technoglies Used:</h4>
+          <big>
+          <a href="https://www.java.com/"><span class="label label-primary">Java</span></a>
+          <a href="https://www.mysql.com/"><span class="label label-primary">MySQL</span></a>
+          <a href="http://www.oracle.com/technetwork/java/javaee/overview/index.html"><span class="label label-primary">Java EE</span></a>
+          </big>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/knusbaum/CS427-Final"><button type="button" class="btn btn-default btn-social btn-github"><span class="fa fa-github" aria-hidden="true"></span>View on Github</button></a>
+        </div>
+      </div>
+    </div>
+  </div>            
+                  
+</html>
